@@ -8,6 +8,7 @@ ssh-common: 通用模块。
 准备工作：  
 1、安装emqx，并分配test用户权限。  
 2、windows测试ssh，需要安装openssh服务端程序。  
+3、跳板机的ssh服务，需要修改配置：“GatewayPorts yes”，并重启ssh服务。  
 
 使用步骤：  
 1、设备需要有唯一的设备ID，程序中默认为1000.  
