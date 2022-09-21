@@ -7,10 +7,6 @@ import org.springframework.messaging.Message;
 import org.springframework.messaging.handler.annotation.Header;
 import org.springframework.stereotype.Component;
 
-/**
- * 消息发送网关
- * @date 2022/2/14 16:56
- */
 @MessagingGateway
 @Component
 public interface MqttGateway {

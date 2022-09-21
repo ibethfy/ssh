@@ -21,11 +21,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-/**
- * @Description: WebSSH业务逻辑实现
- * @Author: NoCortY
- * @Date: 2020/3/8
- */
 @Service
 @Slf4j
 public class WebSSHPortReleaseService {

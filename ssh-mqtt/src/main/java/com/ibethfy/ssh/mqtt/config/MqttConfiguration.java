@@ -12,9 +12,6 @@ import org.springframework.stereotype.Component;
 
 import java.io.File;
 
-/**
- * @date 2022/2/14 14:33
- */
 @Data
 @Component
 @Configuration

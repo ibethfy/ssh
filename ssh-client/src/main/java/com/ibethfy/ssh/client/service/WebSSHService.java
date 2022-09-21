@@ -22,11 +22,6 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.util.Properties;
 
-/**
- * @Description: WebSSH业务逻辑实现
- * @Author: NoCortY
- * @Date: 2020/3/8
- */
 @Service
 @Slf4j
 public class WebSSHService {
@@ -111,13 +106,6 @@ public class WebSSHService {
         }
     }
 
-    /**
-     * @Description: 将消息转发到终端
-     * @Param: [channel, data]
-     * @return: void
-     * @Author: NoCortY
-     * @Date: 2020/3/7
-     */
     private void transToSSH(Channel channel, String command) throws IOException {
         if (channel != null) {
             OutputStream outputStream = channel.getOutputStream();

@@ -27,11 +27,6 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-/**
- * @Description: WebSSH业务逻辑实现
- * @Author: NoCortY
- * @Date: 2020/3/8
- */
 @Service
 @Slf4j
 public class WebSSHService {
@@ -90,13 +85,6 @@ public class WebSSHService {
         sshMap.put(uuid, sshConnectInfo);
     }
 
-    /**
-     * @Description: 处理客户端发送的数据
-     * @Param: [buffer, session]
-     * @return: void
-     * @Author: NoCortY
-     * @Date: 2020/3/7
-     */
     public void receiveHandle(String buffer, WebSocketSession session) {
         ObjectMapper objectMapper = new ObjectMapper();
         WebSSHData webSSHData;

@@ -14,9 +14,6 @@ import org.springframework.stereotype.Component;
 import javax.annotation.Resource;
 
 
-/**
- * @date 2022/2/14 14:42
- */
 @Slf4j
 @Component
 public class MqttMessageReceiver implements MessageHandler {

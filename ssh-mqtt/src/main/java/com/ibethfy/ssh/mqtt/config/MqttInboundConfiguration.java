@@ -15,12 +15,6 @@ import org.springframework.messaging.MessageHandler;
 import javax.annotation.Resource;
 import java.util.UUID;
 
-/**
- *
- * 订阅通道
- *
- * @date 2022/2/14 14:39
- */
 @Configuration
 public class MqttInboundConfiguration {
 

@@ -16,10 +16,6 @@ import org.springframework.messaging.MessageHandler;
 import javax.annotation.Resource;
 import java.util.UUID;
 
-/**
- * 发布通道
- * @date 2022/2/14 14:47
- */
 @Configuration
 public class MqttOutboundConfiguration {
 
