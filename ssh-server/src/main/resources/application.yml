@@ -1,0 +1,22 @@
+server:
+  port: 8888
+#配置跳板机ssh信息，用于反向ssh端口映射的创建
+ssh:
+  userName: root
+  password: root123
+  address: 172.16.15.127
+spring:
+  mvc:
+    view:
+      prefix: /page/
+      suffix: .html
+  mqtt:
+    username: test
+    password: test
+    url: tcp://172.16.15.127:1883
+    clientId: mqttclient
+    inputTopic: /server/maintain
+    defaultInputTopic: /mqq
+    defaultOutputTopic: /mqq
+    defaultQos: 2
+    completionTimeout: 2000

@@ -1,0 +1,18 @@
+#配置客户端系统的ssh连接信息
+ssh:
+  client:
+    userName: root
+    password: root123
+    address: 127.0.0.1
+    port: 22
+spring:
+  mqtt:
+    username: test
+    password: test
+    url: tcp://172.16.15.127:1883
+    clientId: mqttclient
+    inputTopic: /client/maintain/1000
+    defaultInputTopic: /mqq
+    defaultOutputTopic: /mqq
+    defaultQos: 2
+    completionTimeout: 2000
